@@ -1,0 +1,109 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  //border: solid 1px red;
+  font-family: "LXGW WenKai TC", cursive;
+}
+body{
+  background:url(https://4kwallpapers.com/images/wallpapers/windows-xp-bliss-landscape-rainbow-blue-sky-5k-3840x2160-3187.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-position:center;
+  background-size: cover;
+  height:950px;
+  
+}
+.box{ 
+  width:100%;
+  height:100%;
+  background-position:center;
+  background-size: cover;
+}
+.pic{
+  background:url(https://1drv.ms/i/c/e8ab786e523c249c/Ee2UMV7VOMdPvEpFQuchnJkBT6E8UnzuTajT0u5u9anTaw?e=zsBwVW);
+}
+.zxc{
+  border: solid 2px #fff;
+  float:right;
+  position:relative;
+  width:30px;
+  height:30px;
+  background: red;
+  top:0px;
+  left:0px;
+  text-align: center;
+}
+.top{
+  background-color:#fff;
+  background: linear-gradient(transparent 0%, #038dff 100%);
+  color:#fff;
+}
+.me,.about,.skill,.talk{
+  position:relative;
+  background-color:#fff;
+  box-shadow: 0px 0px 35px rgba(0,0,0,0.3);
+  transition:0.5s;
+  height:300px;
+  width:400px;
+  border: solid 3px #038dff;
+  font-size:20px;
+}
+.skill:hover,.talk:hover,.about:hover,.me:hover{
+  box-shadow: 5px 5px 60px rgba(0,0,0,0.4);
+  transform: translate(-5px,-5px);
+}
+.me{
+  top:70px;
+  left:10%;
+}
+.about{
+  top:140px;
+  left:10%;
+}
+.skill{
+  top:-230px;
+  float:right;
+  margin-right:10%;
+}
+.talk{
+  top:-160px;
+  float:right;
+  margin-right:10%;
+}
+.title{
+  position: relative;
+  text-align: center;
+  color: white;
+  top:0px;
+  font-size:20px;
+  background:#038dff;
+  width:100%;
+}
+.listProgram .bar{
+  width: 150px;
+  height: 10px;
+  border: solid 2px #F47C7C;
+  border-radius: 5px;
+}
+.listProgram li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.value{
+  height: 100%;
+  width: 60%;
+  background-color: #F47C7C;
+}
+.value.p60{
+  width: 60%;
+}
+.value.p80{
+  width: 80%;
+}
+.value.p70{
+  width: 70%;
+}
